@@ -1,0 +1,26 @@
+{
+  "name": "tailwindtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss build app.css -o public/style.css",
+    "watch": "tailwindcss build app.css -o public/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DoritosEater69/tailwindTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DoritosEater69/tailwindTest/issues"
+  },
+  "homepage": "https://github.com/DoritosEater69/tailwindTest#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
+  }
+}

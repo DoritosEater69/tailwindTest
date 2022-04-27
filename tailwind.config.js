@@ -37,6 +37,9 @@ module.exports = {
           },
         },
       },
+      backgroundImage: {
+        'cam-guy': 'url(./bg-camera-guy.jpg)'
+      }
     },
   },
   plugins: [],

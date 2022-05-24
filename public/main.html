@@ -21,9 +21,11 @@
             <nav class="w-full bg-white shadow-md flex flex-col md:flex-row items-center justify-between">
                 <img src="placeholder-logo-1.png">
                 <ul class="md:flex flex-row gap-4 pr-4 hidden justify-end w-full">
-                    <li><a href="#content1" class="smoothScroll" name="content1">Link 1</a></li>
-                    <li><a href="#content2" class="smoothScroll" name="content2">Link 2</a></li>
-                    <li><a href="#content3" class="smoothScroll" name="content3">Link 3</a></li>
+                    <li><a href="#who" class="smoothScroll" name="who">Who we are</a></li>
+                    <li><a href="#connect" class="smoothScroll" name="connect">Connect</a></li>
+                    <li><a href="#rating" class="smoothScroll" name="rating">What our Customers think</a></li>
+                    <li><a href="#info" class="smoothScroll" name="info">Info</a></li>
+                    <li><a href="#gallery" class="smoothScroll" name="gallery">Gallery</a></li>                
                 </ul>
 
                 <div class="flex flex-col items-end justify-end w-full gap-4 lg:hidden">
@@ -39,19 +41,19 @@
                                         <img src="placeholder-logo-1.png" class="text-center">
                                         <ul class="flex flex-col text-black gap-2">
                                             <li>                                                
-                                                <a href="#content1" class="smoothScroll flex flex-row gap-6 rounded-xl border-2 border-gray-800 px-4 py-2" name="content1">
+                                                <a href="#who" class="smoothScroll flex flex-row gap-6 rounded-xl border-2 border-gray-800 px-4 py-2" name="who">
                                                     <i class="fa-solid fa-house text-2xl"></i>
                                                     <span>Link 1</span>
                                                 </a>
                                             </li>
                                             <li>                                                
-                                                <a href="#content2" class="smoothScroll flex flex-row gap-6 rounded-xl border-2 border-gray-800 px-4 py-2" name="content2">
+                                                <a href="#connect" class="smoothScroll flex flex-row gap-6 rounded-xl border-2 border-gray-800 px-4 py-2" name="connect">
                                                     <i class="fa-solid fa-address-card text-2xl"></i>
                                                     <span>Link 2</span>
                                                 </a>
                                             </li>
                                             <li>                                                
-                                                <a href="#content3" class="smoothScroll flex flex-row gap-6 rounded-xl border-2 border-gray-800 px-4 py-2" name="content3">
+                                                <a href="#gallery" class="smoothScroll flex flex-row gap-6 rounded-xl border-2 border-gray-800 px-4 py-2" name="gallery">
                                                     <i class="fa-solid fa-shoe-prints text-2xl"></i>
                                                     <span>Link 3</span>
                                                 </a>
@@ -103,190 +105,201 @@
         </header> 
 
         <main class="bg-white">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-24 md:gap-0 text-center px-24 py-16" id="content1">
-                <div class="blur-lg hover:blur-0 hover:text-blue-900 hover:scale-150 transition ease-in-out">
-                    <i class="fa-solid fa-heart text-2xl"></i>
-                    <p class="text-black text-sm">Lorem ipsum dolor sit amet, consetetur sadipscing<br> elitr, sed diam nonumy eirmod tempor invidunt ut labore. </p>
-                </div>
-                <div class="blur-lg hover:blur-0 hover:text-blue-900 hover:scale-150 transition ease-in-out">
-                    <i class="fa-solid fa-signal text-2xl"></i>
-                    <p class="text-black text-sm">Lorem ipsum dolor sit amet, consetetur sadipscing<br> elitr, sed diam nonumy eirmod tempor invidunt ut labore. </p>
-                </div>
-                <div class="blur-lg hover:blur-0 hover:text-blue-900 hover:scale-150 transition ease-in-out">
-                    <i class="fa-solid fa-dice text-2xl"></i>
-                    <p class="text-black text-sm">Lorem ipsum dolor sit amet, consetetur sadipscing<br> elitr, sed diam nonumy eirmod tempor invidunt ut labore. </p>
-                </div>                                
-            </div>
-
-            <div class="flex flex-col md:flex-row items-center">
-                <div class="relative w-full md:w-1/2 blur-sm hover:blur-none">
-                    <video class="md:rounded-tr-full hover:shadow-inner" autoplay muted loop id="myVideo">
-                      <source src="sky.mp4" type="video/mp4">
-                    </video>
-                    <span class="md:rounded-tr-full mix-blend-multiply bg-blue-100 md:p-64 absolute top-0 right-0 md:right-4 blur-2xl left-0 animate-inputs"></span>
-                    <span class="md:rounded-tr-full mix-blend-multiply bg-red-200 md:p-32 absolute top-0 right-0 md:right-4 blur-2xl left-0 animate-inputs"></span>
-                </div>
-                <div class="w-full md:w-1/2 px-8 gap-y-4 text-center md:text-left">
-                    <h2 class="text-xl md:text-4xl font-bold">Lorem ipsum dolor sit amet</h2>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
-                    <button class="relative mt-4 text-black hover:text-white border-2 border-black rounded uppercase hover:scale-110 transition ease-in-out hover:border-4 hover:underline before:absolute z-0
-                      before:inset-0 
-                      before:bg-black
-                      before:scale-x-0 
-                      before:origin-right
-                      before:transition
-                      before:duration-300
-                      hover:before:scale-x-100                      
-                      hover:before:origin-left
-                      " style="width: 150px; height: 50px;">
-                      <span class="absolute hover:text-white z-50 inset-y-2 inset-x-0">Read more</span></button>
-                </div>
-            </div>
-            <div class="flex flex-col-reverse md:flex-row items-center">
-                <div class="w-full md:w-1/2 px-8 gap-y-4 text-center md:text-left">
-                    <h2 class="text-xl md:text-4xl font-bold">Lorem ipsum dolor sit amet</h2>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
-                    <button class="relative mt-4 text-black hover:text-white border-2 border-black rounded uppercase hover:scale-110 transition ease-in-out hover:border-4 hover:underline before:absolute z-0
-                      before:inset-0 
-                      before:bg-black
-                      before:scale-x-0 
-                      before:origin-right
-                      before:transition
-                      before:duration-300
-                      hover:before:scale-x-100                      
-                      hover:before:origin-left
-                      " style="width: 150px; height: 50px;">
-                      <span class="absolute hover:text-white z-50 inset-y-2 inset-x-0">Read more</span></button>
-                </div>
-                 <div class="relative w-full md:w-1/2 blur-sm hover:blur-none">
-                    <video class="md:rounded-bl-full  hover:shadow-inner" autoplay muted loop id="myVideo">
-                      <source src="sky.mp4" type="video/mp4">
-                    </video>
-                    <span class="md:rounded-bl-full mix-blend-multiply bg-blue-100 md:p-64 absolute top-0 right-0 blur-2xl left-4 animate-inputs"></span>
-                    <span class="md:rounded-bl-full mix-blend-multiply bg-red-200 md:p-32 absolute top-0 right-0 blur-2xl left-4 animate-inputs"></span>
-                </div>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-24 text-center md:px-64 md:py-16 mt-32">                
-                <div class="blur-lg hover:blur-0 hover:text-blue-900 hover:scale-150 transition ease-in-out mr-32">
-                    <i class="fa-brands fa-instagram text-4xl"></i>
-                </div>
-                <div class="blur-lg hover:blur-0 hover:text-blue-900 hover:scale-150 transition ease-in-out">
-                    <i class="fa-brands fa-facebook-f text-4xl"></i>
-                </div>
-                <div class="blur-lg hover:blur-0 hover:text-blue-900 hover:scale-150 transition ease-in-out -mr-32">
-                    <i class="fa-brands fa-pinterest-p text-4xl"></i>
-                </div>                                
-            </div>            
-
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 text-center md:px-32 py-16 mt-32 gap-0 md:gap-2 relative" id="content2">
-                <div class="relative flex flex-col items-center bg-gray-100 md:rounded-2xl px-4 pb-8">
-                    <img src="happy-guy_cropped.png" class="rounded-full w-1/2 border-4 border-blue-100 mb-4 mt-4 md:mt-0 md:-translate-y-16">
-                    <h3>Headline</h3>
-                    <h4>Subline</h4>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-                    <div class="flex flex-row justify-center mt-4">
-                        <i class="fa-solid fa-star text-yellow-400"></i>
-                        <i class="fa-solid fa-star text-yellow-400"></i>
-                        <i class="fa-solid fa-star text-yellow-400"></i>
-                        <i class="fa-solid fa-star text-yellow-400"></i>
-                        <i class="fa-solid fa-star text-yellow-400"></i>
+            <div id="who">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-24 md:gap-0 text-center px-24 py-16">
+                    <div class="blur-lg hover:blur-0 hover:text-blue-900 hover:scale-150 transition ease-in-out">
+                        <i class="fa-solid fa-heart text-2xl"></i>
+                        <p class="text-black text-sm">Lorem ipsum dolor sit amet, consetetur sadipscing<br> elitr, sed diam nonumy eirmod tempor invidunt ut labore. </p>
                     </div>
-                    <span class="absolute right-0 bg-blue-900 rounded-bl-2xl"><i class="fa-solid fa-face-smile p-4 text-white text-2xl"></i></span>
-                </div>
-                <div class="relative flex flex-col items-center bg-gray-100 md:rounded-2xl px-4 pb-8">
-                    <img src="happy-guy_cropped.png" class="rounded-full w-1/2 border-4 border-blue-100 mt-4 md:mt-0 mb-4 md:-translate-y-16">
-                    <h3>Headline</h3>
-                    <h4>Subline</h4>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-                    <div class="flex flex-row justify-center mt-4">
-                        <i class="fa-solid fa-star text-yellow-400"></i>
-                        <i class="fa-solid fa-star text-yellow-400"></i>
-                        <i class="fa-solid fa-star text-yellow-400"></i>
-                        <i class="fa-solid fa-star text-yellow-400"></i>
-                        <i class="fa-solid fa-star text-yellow-400"></i>
+                    <div class="blur-lg hover:blur-0 hover:text-blue-900 hover:scale-150 transition ease-in-out">
+                        <i class="fa-solid fa-signal text-2xl"></i>
+                        <p class="text-black text-sm">Lorem ipsum dolor sit amet, consetetur sadipscing<br> elitr, sed diam nonumy eirmod tempor invidunt ut labore. </p>
                     </div>
-                    <span class="absolute right-0 bg-blue-900 rounded-bl-2xl"><i class="fa-solid fa-face-smile p-4 text-white text-2xl"></i></span>
+                    <div class="blur-lg hover:blur-0 hover:text-blue-900 hover:scale-150 transition ease-in-out">
+                        <i class="fa-solid fa-dice text-2xl"></i>
+                        <p class="text-black text-sm">Lorem ipsum dolor sit amet, consetetur sadipscing<br> elitr, sed diam nonumy eirmod tempor invidunt ut labore. </p>
+                    </div>                                
                 </div>
-                <div class="absolute bg-blue-500 rounded-full h-16 w-16 top-0 left-0 blur-2xl hidden md:block">                
-                </div>
-                <div class="absolute bg-yellow-500 rounded-full h-16 w-16 top-0 right-0 blur-xl hidden md:block">
-                </div>                
-            </div>  
 
-            <div class="w-full bg-green-500 mb-12">
-                <div class="flex flex-col items-center py-12 px-48 text-center gap-6">
-                    <i class="fa-solid fa-circle-question text-8xl text-white"></i>
-                    <h2 class="text-4xl text-white">Lorem ipsum dolor</h2>
-                    <p class="text-md text-white">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-                    <i class="fa-solid fa-chevron-down text-white text-4xl animate-bounce"></i>
-                </div>
-            </div>
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-12 md:gap-6 md:mb-6 md:px-32 md:h-3/6">               
-                <div class="md:col-span-6 relative w-full h-full hover:blur-sm">
-                    <div class="absolute inset-0 bg-gradient-to-r from-blue-900 to-none opacity-25 w-full z-50 md:rounded-2xl"></div>
-                    <div class="relative h-full">
-                        <img src="fancy1.jpg" class="md:rounded-2xl object-cover h-full">                    
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="relative w-full md:w-1/2 blur-sm hover:blur-none">
+                        <video class="md:rounded-tr-full hover:shadow-inner" autoplay muted loop id="myVideo">
+                          <source src="sky.mp4" type="video/mp4">
+                        </video>
+                        <span class="md:rounded-tr-full mix-blend-multiply bg-blue-100 md:p-64 absolute top-0 right-0 blur-2xl left-0 animate-inputs"></span>
+                        <span class="md:rounded-tr-full mix-blend-multiply bg-red-200 md:p-32 absolute top-0 right-0 blur-2xl left-0 animate-inputs"></span>
+                    </div>
+                    <div class="w-full md:w-1/2 px-8 gap-y-4 text-center md:text-left">
+                        <h2 class="text-xl md:text-4xl font-bold">Lorem ipsum dolor sit amet</h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+                        <button class="relative mt-4 text-black hover:text-white border-2 border-black rounded uppercase hover:scale-110 transition ease-in-out hover:border-4 hover:underline before:absolute z-0
+                          before:inset-0 
+                          before:bg-black
+                          before:scale-x-0 
+                          before:origin-right
+                          before:transition
+                          before:duration-300
+                          hover:before:scale-x-100                      
+                          hover:before:origin-left
+                          " style="width: 150px; height: 50px;">
+                          <span class="absolute hover:text-white z-50 inset-y-2 inset-x-0">Read more</span></button>
                     </div>
                 </div>
-                <div class="md:col-span-6 relative w-full">                    
-                    <div class="absolute inset-0 bg-gradient-to-r from-blue-900 to-none opacity-25 w-full z-50 md:rounded-2xl"></div>
+                <div class="flex flex-col-reverse md:flex-row items-center">
+                    <div class="w-full md:w-1/2 px-8 gap-y-4 text-center md:text-left">
+                        <h2 class="text-xl md:text-4xl font-bold">Lorem ipsum dolor sit amet</h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+                        <button class="relative mt-4 text-black hover:text-white border-2 border-black rounded uppercase hover:scale-110 transition ease-in-out hover:border-4 hover:underline before:absolute z-0
+                          before:inset-0 
+                          before:bg-black
+                          before:scale-x-0 
+                          before:origin-right
+                          before:transition
+                          before:duration-300
+                          hover:before:scale-x-100                      
+                          hover:before:origin-left
+                          " style="width: 150px; height: 50px;">
+                          <span class="absolute hover:text-white z-50 inset-y-2 inset-x-0">Read more</span></button>
+                    </div>
+                     <div class="relative w-full md:w-1/2 blur-sm hover:blur-none">
+                        <video class="md:rounded-bl-full  hover:shadow-inner" autoplay muted loop id="myVideo">
+                          <source src="sky.mp4" type="video/mp4">
+                        </video>
+                        <span class="md:rounded-bl-full mix-blend-multiply bg-blue-100 md:p-64 absolute top-0 right-0 blur-2xl"></span>
+                        <span class="md:rounded-bl-full mix-blend-multiply bg-red-200 md:p-32 absolute top-0 right-0 blur-2xl"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="connect">
+                <div class="flex flex-col md:grid grid-cols-1 md:grid-cols-3 gap-24 text-center md:px-64 md:py-16 mt-32">                
+                    <div class="blur-lg hover:blur-0 hover:text-blue-900 hover:scale-150 transition ease-in-out md:mr-32">
+                        <i class="fa-brands fa-instagram text-4xl"></i>
+                    </div>
+                    <div class="blur-lg hover:blur-0 hover:text-blue-900 hover:scale-150 transition ease-in-out">
+                        <i class="fa-brands fa-facebook-f text-4xl"></i>
+                    </div>
+                    <div class="blur-lg hover:blur-0 hover:text-blue-900 hover:scale-150 transition ease-in-out md:-mr-32">
+                        <i class="fa-brands fa-pinterest-p text-4xl"></i>
+                    </div>                                
+                </div>         
+            </div>   
+
+            <div id="rating">
+                <div class="grid grid-cols-1 sm:grid-cols-2 text-center md:px-32 py-16 mt-32 gap-0 md:gap-2 relative">
+                    <div class="relative flex flex-col items-center bg-gray-100 md:rounded-2xl px-4 pb-8">
+                        <img src="happy-guy_cropped.png" class="rounded-full w-1/2 border-4 border-blue-100 mb-4 mt-4 md:mt-0 md:-translate-y-16">
+                        <h3>Headline</h3>
+                        <h4>Subline</h4>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                        <div class="flex flex-row justify-center mt-4">
+                            <i class="fa-solid fa-star text-yellow-400"></i>
+                            <i class="fa-solid fa-star text-yellow-400"></i>
+                            <i class="fa-solid fa-star text-yellow-400"></i>
+                            <i class="fa-solid fa-star text-yellow-400"></i>
+                            <i class="fa-solid fa-star text-yellow-400"></i>
+                        </div>
+                        <span class="absolute right-0 bg-blue-900 rounded-bl-2xl"><i class="fa-solid fa-face-smile p-4 text-white text-2xl"></i></span>
+                    </div>
+                    <div class="relative flex flex-col items-center bg-gray-100 md:rounded-2xl px-4 pb-8">
+                        <img src="happy-guy_cropped.png" class="rounded-full w-1/2 border-4 border-blue-100 mt-4 md:mt-0 mb-4 md:-translate-y-16">
+                        <h3>Headline</h3>
+                        <h4>Subline</h4>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                        <div class="flex flex-row justify-center mt-4">
+                            <i class="fa-solid fa-star text-yellow-400"></i>
+                            <i class="fa-solid fa-star text-yellow-400"></i>
+                            <i class="fa-solid fa-star text-yellow-400"></i>
+                            <i class="fa-solid fa-star text-yellow-400"></i>
+                            <i class="fa-solid fa-star text-yellow-400"></i>
+                        </div>
+                        <span class="absolute right-0 bg-blue-900 rounded-bl-2xl"><i class="fa-solid fa-face-smile p-4 text-white text-2xl"></i></span>
+                    </div>
+                    <div class="absolute bg-blue-500 rounded-full h-12 w-80 -rotate-45 top-0 left-0 blur-2xl hidden md:block">        
+                    </div>                
+                    <div class="absolute bg-yellow-500 rounded-full h-12 w-80 rotate-45 top-0 right-0 blur-xl hidden md:block">
+                    </div>                
+                </div>  
+            </div>
+
+            <div id="info">
+                <div class="w-full bg-green-500 mb-12">
+                    <div class="flex flex-col items-center py-12 md:px-48 text-center gap-6">
+                        <i class="fa-solid fa-circle-question text-8xl text-white"></i>
+                        <h2 class="text-4xl text-white">Lorem ipsum dolor</h2>
+                        <p class="text-md text-white">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                        <i class="fa-solid fa-chevron-down text-white text-4xl animate-bounce"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div id="gallery">
+                <div class="relative grid grid-cols-1 sm:grid-cols-2 md:grid-cols-12 md:gap-6 md:mb-6 md:px-32 md:h-3/6">
+                    <div class="md:col-span-6 relative w-full h-full hover:blur-sm">
+                        <div class="absolute inset-0 bg-gradient-to-r from-blue-900 to-none opacity-25 w-full z-50 md:rounded-2xl"></div>
+                        <div class="relative h-full">
+                            <img src="fancy1.jpg" class="md:rounded-2xl object-cover h-full">                    
+                        </div>
+                    </div>
+
+                    <div class="md:col-span-6 relative w-full">                    
+                        <div class="absolute inset-0 bg-gradient-to-r from-blue-900 to-none opacity-25 w-full z-50 md:rounded-2xl"></div>
+                            <div class="relative">
+                                <video autoplay muted loop class="md:rounded-2xl object-cover">
+                                    <source src="02_video.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>                                    
+                    <div class="md:col-span-4">
+                        <img src="fancy3.jpg" class="md:rounded-2xl object-cover md:h-full w-full shadow-md">                    
+                    </div>
+                    <div class="md:col-span-4">
                         <div class="relative">
-                            <video autoplay muted loop class="md:rounded-2xl object-cover">
+                            <video autoplay muted loop class="md:rounded-2xl object-cover md:h-full w-full shadow-inner">
                                 <source src="02_video.mp4" type="video/mp4">
                             </video>
-                        </div>
-                    </div>                                    
-                <div class="md:col-span-4">
-                    <img src="fancy3.jpg" class="md:rounded-2xl object-cover md:h-full w-full shadow-md">                    
-                </div>
-                <div class="md:col-span-4">
-                    <div class="relative">
-                        <video autoplay muted loop class="md:rounded-2xl object-cover md:h-full w-full shadow-inner">
-                            <source src="02_video.mp4" type="video/mp4">
-                        </video>
-                    </div>       
-                </div>   
-                <div class="md:col-span-4">
-                    <img src="fancy5.jpg" class="md:rounded-2xl object-cover md:h-full w-full shadow-inner">                    
-                </div>
-            </div>            
+                        </div>       
+                    </div>   
+                    <div class="md:col-span-4">
+                        <img src="fancy5.jpg" class="md:rounded-2xl object-cover md:h-full w-full shadow-inner">                    
+                    </div>
+                </div>            
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 md:gap-6 mb-6 md:px-32 h-3/6">                                                 
-                <div class="md:col-span-1">
-                    <img src="fancy3.jpg" class="md:rounded-2xl object-cover md:h-full w-full shadow-inner">                    
-                </div>
-                <div class="md:col-span-1">
-                    <div class="relative">
-                        <video autoplay muted loop class="md:rounded-2xl object-cover md:h-full w-full shadow-inner">
-                            <source src="02_video.mp4" type="video/mp4">
-                        </video>
-                    </div>       
-                </div>   
-                <div class="md:col-span-1">
-                    <img src="fancy5.jpg" class="md:rounded-2xl object-cover md:h-full w-full shadow-inner">                    
-                </div>
-                <div class="md:col-span-1">
-                    <img src="fancy5.jpg" class="md:rounded-2xl object-cover md:h-full w-full shadow-inner">                    
-                </div>                
-            </div> 
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 md:gap-6 mb-6 md:px-32 h-3/6">                                                 
+                    <div class="md:col-span-1">
+                        <img src="fancy3.jpg" class="md:rounded-2xl object-cover md:h-full w-full shadow-inner">                    
+                    </div>
+                    <div class="md:col-span-1">
+                        <div class="relative">
+                            <video autoplay muted loop class="md:rounded-2xl object-cover md:h-full w-full shadow-inner">
+                                <source src="02_video.mp4" type="video/mp4">
+                            </video>
+                        </div>       
+                    </div>   
+                    <div class="md:col-span-1">
+                        <img src="fancy5.jpg" class="md:rounded-2xl object-cover md:h-full w-full shadow-inner">                    
+                    </div>
+                    <div class="md:col-span-1">
+                        <img src="fancy5.jpg" class="md:rounded-2xl object-cover md:h-full w-full shadow-inner">                    
+                    </div>                
+                </div> 
+            </div>
         </main>  
 
-        <footer class="flex flex-row bg-gray-900 py-6 px-12">            
+        <footer>
+        <div class="flex flex-row bg-gray-900 py-6 px-12">            
             <div class="grid grid-cols-1  md:grid-cols-3">
                 <div class="flex flex-col text-white">
                     <h3 class="text-xl font-bold">Headline</h3>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
                 </div>
 
-                <div class="bottom-0 flex flex-col items-center text-white bg-black -translate-y-16 rounded-full py-4 gap-2">
+                <div class="bottom-0 flex flex-col items-center text-white bg-black -translate-y-16 rounded-full py-4 gap-2" id="socials z-50">
                     <h3 class="text-xl font-bold">Socials</h3>
                     <ul class="flex gap-12 list-style-none">
-                        <li><i class="fa-brands fa-facebook-f text-4xl"></i></li>
-                        <li><i class="fa-brands fa-pinterest-p text-4xl"></i></li>
-                        <li><i class="fa-brands fa-instagram text-4xl"></i></li>
+                        <li><i class="fa-brands fa-facebook-f text-4xl hover:scale-150 hover:text-blue-800"></i></li>
+                        <li><i class="fa-brands fa-pinterest-p text-4xl hover:scale-150 hover:text-red-500"></i></li>
+                        <li><i class="fa-brands fa-instagram text-4xl hover:scale-150 hover:text-pink-500"></i></li>
                     </ul>
                 </div>
 
@@ -298,27 +311,33 @@
                         <li>3</li>
                     </ul>
                 </div>                                
-            </div>            
-        </footer>
+            </div>   
+        </div>         
+
         <div class="bg-black py-2 text-white text-center">
             <p class="text-sm">@Made by Nic</p>
         </div>
+    </footer>
 
-        <div class="sticky relative bottom-0 flex flex-col items-center text-white bg-black -translate-y-16 rounded-full py-4 gap-2 mx-64 transform animate-bounce">
-            <h3 class="text-xl font-bold">Socials</h3>
-            <ul class="flex gap-12 list-style-none">
-                <li><i class="fa-brands fa-facebook-f text-4xl"></i></li>
-                <li><i class="fa-brands fa-pinterest-p text-4xl"></i></li>
-                <li><i class="fa-brands fa-instagram text-4xl"></i></li>
-            </ul>
+    <div class="md:visible sticky relative bottom-0 flex flex-col items-center text-white bg-black -translate-y-16 rounded-full py-4 gap-2 mx-64 transform animate-bounce social-jumper z-50">
+        <h3 class="text-xl font-bold">Socials</h3>
+        <ul class="flex gap-12 list-style-none">
+            <li><i class="fa-brands fa-facebook-f text-4xl hover:scale-150 hover:text-blue-800"></i></li>
+            <li><i class="fa-brands fa-pinterest-p text-4xl hover:scale-150 hover:text-red-500"></i></li>
+            <li><i class="fa-brands fa-instagram text-4xl hover:scale-150 hover:text-pink-500"></i></li>
+        </ul>
 
-            <div class="absolute bg-white rounded-l-full top-0 left-0 text-black h-full">
-                <p class="p-8 font-bold text-md">Follow us!</p>
-            </div>
-
-            <div class="absolute rounded-l-full top-1 right-1 text-black h-full">
-                <i class="fa-solid fa-circle-xmark text-white text-8xl"></i>
-            </div>
+        <div class="absolute bg-white rounded-l-full top-0 left-0 text-black h-full">
+            <p class="p-8 font-bold text-md">Follow us!</p>
         </div>
+
+        <div class="absolute rounded-l-full top-1 right-1 text-black h-full socials-close">
+            <i class="fa-solid fa-circle-xmark text-white text-8xl"></i>
+        </div>
+    </div>
+
+    <div class="hidden sticky md:bottom-1/2 flex flex-row justify-center text-center md:items-start text-white bg-black md:rounded-r-full py-4 pl-8 pr-0 gap-2 w-full md:w-40 transform social-closed">
+        <h3 class="text-md">Socials</h3>
+    </div>
     </body>
 </html>
